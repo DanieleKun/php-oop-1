@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}
+
+h2, p{
+    display: inline-block;
+}
+
+.card_movie{
+    margin: 20px;
+}
