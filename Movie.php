@@ -5,11 +5,19 @@ class Movie
 	public $genre;
 	public $year;
 	public $duration;
-	public $actors;
+	public $valutation = 0;
 
 	public function __construct($title, $genre)
 	{
 		$this->title = $title;
 		$this->genre = $genre;
+	}
+
+	public function getValutation() {
+		if ($this->valutation <= 3) {
+			echo '<h3>Valutazione:</h3><p class="bad"><?php $this->valutation </p>';
+		} else {
+			echo '<h3>Valutazione:</h3><p class="good"><?php $this->valutation</p>';
+		}
 	}
 }
