@@ -30,7 +30,6 @@ $martian->valutation = 4.5;
                 <h3>Anno:</h3><p><?php echo $avengers->year ?></p>
                 <h3>Genere:</h3><p><?php echo $avengers->genre ?></p>
                 <h3>Durata:</h3><p><?php echo $avengers->duration ?></p>
-                <h3>Valutazione:</h3><p><?php echo $avengers->valutation ?></p>
                 <?php $avengers->getValutation($avengers->valutation); ?>
             </div>
             <div class="card_movie">

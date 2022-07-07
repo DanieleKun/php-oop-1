@@ -15,9 +15,9 @@ class Movie
 
 	public function getValutation() {
 		if ($this->valutation <= 3) {
-			echo '<h3>Valutazione:</h3><p class="bad"><?php $this->valutation </p>';
+			echo '<h3>Valutazione:</h3><p class="bad">'.$this->valutation.'</p>';
 		} else {
-			echo '<h3>Valutazione:</h3><p class="good"><?php $this->valutation</p>';
+			echo '<h3>Valutazione:</h3><p class="good">'.$this->valutation.'</p>';
 		}
 	}
 }
